@@ -1,5 +1,5 @@
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
-
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://34.47.177.112:8004'
+console.log('API_BASE_URL:', API_BASE_URL);
 export interface APIResponse {
   success: boolean;
   message: string;

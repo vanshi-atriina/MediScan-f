@@ -1,0 +1,15 @@
+version: "3.9"
+
+services:
+  nextjs:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3002:3002"
+    environment:
+      - NODE_ENV=production
+      - PORT=3002
+    env_file:
+      - .env.local
+    restart: unless-stopped
