@@ -134,7 +134,7 @@ export function FileUpload({ onFileSelect, loading = false, progress = 0, maxFil
                 </div>
               </div>
               <p className="text-sm text-gray-500">
-                Maximum file size: 50MB
+                Maximum file size: 10MB
               </p>
             </div>
           )}
